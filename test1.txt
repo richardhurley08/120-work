@@ -1,0 +1,7 @@
+Name: Richard Hurley
+Date: 8/31/2018
+
+This is my first text file.
+
+
+I added a new line in this file in my text.
