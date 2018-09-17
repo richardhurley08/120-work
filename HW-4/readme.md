@@ -1,26 +1,15 @@
 # Richard Hurley
 -----
-## Week 2
+## Week 4 - Intro to Drawing in p5
 ---
-<b> Summarize the work you did this homework cycle. Paying particular attention to the individual choices you made.</b>
-<p> Atom and Github was already installed on my computer from another class previously. Majority of this week I spent organizing my files and changing my Github directories for better convenience. </p>
 
+ This week we were able to draw something in javascript. I had alot of fun on this assignment that I honestly forgot about all the other classes that I have. Obligations will get you every time.
+<p> This week I read all of the website information and watched all the videos a few times. I downloaded the color packet to help with picking colors. I learned how to use `createCanvas()` and `background()` functions. </p>
 
-<b>  What steps did you take to complete the assignment?</b> <p>
-1. I updated my current software.
-2. I read the Creative Coding website meek 2.
-3. Created my test1.txt
+<p> The only issues I had this assignment was typos. For example I wrote the camand `stroke ( 'white' )` but I forgot the ; at the end fo the command. I startet to think of it like texting  I have to wink after every command. ;)
 
-<b> Did you have any problems or issues? How did you solve these? Did you post about these to the class repo issue tracker?</b> <p>
-Fortunately I did not run into any issues this week but im sure they are coming.
+I did not use the issues forum this week. 
 
-
-<b> Did you receive any useful feedback from your classmates?</b> <p>
-Not at this time.
-
-<b> What issues did you help your fellow classmates out with this past homework cycle?</b><p>
-
-There are currently no issues.
 
 ## Workspace Screenshot
-![screenshot](image/hw2.png)
+![screenshot](images/screenshot.png)
