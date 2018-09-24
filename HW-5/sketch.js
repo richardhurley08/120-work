@@ -1,5 +1,5 @@
 function setup(){
-   createCanvas( 2000, 950);
+   createCanvas( windowWidth, 950);
    frameRate(  );
 }
 let angle = -0;
@@ -8,14 +8,7 @@ let red_val = 255;
 function draw(){
  background( 'black' );
 
-
-
-textSize(20);
-fill('white');
-text("'mouseX': " + floor(mouseX), 100, 40 );
-text("'mouseY': " + floor(mouseY), 100, 80 );
-
-
+noCursor();
 
 
 // red over time 1-255
@@ -56,14 +49,40 @@ text("'mouseY': " + floor(mouseY), 100, 80 );
   ellipse( 100, 150, 400, 100,);
 
 
-  angle = angle + 25;
+  angle = angle + 1;
 
 pop();
+// Stem
+push();
+scale ( 1, 1 );
+translate( 150, 100 );
+translate( mouseX,  mouseY );
+fill( 'green' );
+triangle( -140, 0, 0, 0, -100, height+100 );
 
+
+pop();
+// leaves
+push();
+translate( 150, 100 );
+translate( mouseX, mouseY );
+
+ fill( 'green');
+ ellipse( 100, 100, 400, 100 );
+
+ pop();
+ push();
+ translate(  -200, 100 );
+ translate( mouseX, mouseY );
+
+  fill( 'green');
+  ellipse( 100, 100, 400, 100 );
+
+  pop();
 
   // mouse ( X, Y )
-  //translate( mouseX, mouseY );
-  translate( 500, 500 );
+  translate( mouseX, mouseY );
+// translate( 500, 500 );
   push();
   pop();
   translate( 0, 60 );
@@ -85,9 +104,6 @@ translate( 200, 200);
 triangle( 300, 200, 20, 200, 200, 300);
 
 
-scale ( 1, 1 );
-translate( 230, 320 );
-fill( 'green' );
-triangle( -140, 0, 0, 0, -100, 600 );
+
 
 }
