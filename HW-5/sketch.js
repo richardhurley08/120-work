@@ -1,12 +1,13 @@
-// Angry flower 
+// Angry flower
 
 function setup(){
    createCanvas( windowWidth, 950);
-   frameRate(  );
+   frameRate( 60 );
 }
-let angle = -0;
+let loop = 0;
+
 // red over time
-let red_val = 255;
+let red_V = 255;
 function draw(){
  background( 'black' );
 
@@ -14,44 +15,45 @@ noCursor();
 
 
 // red over time +1 - %255
- red_val = red_val + 1;
- red_val = red_val % 255;
+ red_V = red_V + 1;
+ red_V = red_V % 255;
+
 //head
   push();
 
-  // spin thing
-  rotate( radians(angle))
+  // background distraction
+  rotate( radians(loop))
   translate( mouseX, -500, mouseY, );
   fill( 'orange' );
   ellipse( 100, 150, 400, 100,);
 
-  rotate( radians(angle))
+  rotate( radians(loop))
   translate( mouseX, -400, mouseY, );
   fill( 'green' );
   ellipse( 100, 150, 400, 100,);
 
-  rotate( radians(angle))
+  rotate( radians(loop))
   translate( mouseX, -300, mouseY, );
   fill( 'purple' );
   ellipse( 100, 90, 400, 100,);
 
-  rotate( radians(angle))
+  rotate( radians(loop))
   translate( mouseX, -200, mouseY, );
   fill( 'red' );
   ellipse( 90, 150, 400, 100,);
 
-  rotate( radians(angle))
+  rotate( radians(loop))
   translate( mouseX, 200, mouseY, );
   fill( 'green' );
   ellipse( 100, 150, 400, 100,);
 
-  rotate( radians(angle))
+  rotate( radians(loop))
   translate( mouseX, 0, mouseY, );
   fill( 'yellow' );
   ellipse( 100, 150, 400, 100,);
 
 
-  angle = angle + 1;
+  loop = loop + 1.5;
 
 pop();
 // spin thing end
@@ -95,11 +97,11 @@ translate( mouseX, mouseY );
 // eyes
 push()
     strokeWeight( 10 );
-     fill( red_val, 0, 0 );
+     fill( red_V, 0, 0 );
      translate( -75, -400 );
   triangle( 300, 300, 300, 200, 200, 300);
 
-  fill( red_val, 0, 0 );
+  fill( red_V, 0, 0 );
   translate( -200, 0);
  triangle( 300, 300, 200, 200, 200, 300);
  //eyes end
