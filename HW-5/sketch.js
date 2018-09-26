@@ -83,9 +83,11 @@ translate( mouseX, mouseY );
 
   fill( 'green');
   ellipse( 100, 100, 400, 100 );
+// leaves end
 
   pop();
- // leaves end
+
+
   // mouse ( X, Y )
   translate( mouseX, mouseY );
 // translate( 500, 500 );
@@ -94,6 +96,7 @@ translate( mouseX, mouseY );
   translate( 0, 60 );
   fill( 'orange' );
   ellipse( 75, -75, 500, 500 );
+
 // eyes
 push()
     strokeWeight( 10 );
@@ -105,6 +108,7 @@ push()
   translate( -200, 0);
  triangle( 300, 300, 200, 200, 200, 300);
  //eyes end
+
 //mouth
 fill( 'black');
 translate( 200, 200);

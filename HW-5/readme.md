@@ -1,14 +1,16 @@
 # Richard Hurley
 -----
-## Week 4 - Intro to Drawing in p5
+## Week 5 - Animation, Variables, & Mathn p5
 ---
 
- This week we were able to draw something in javascript. I had alot of fun on this assignment that I honestly forgot about all the other classes that I have. Obligations will get you every time.
-<p> This week I read all of the website information and watched all the videos a few times. I downloaded the color packet to help with picking colors. I learned how to use `createCanvas()` and `background()` functions. </p>
+ This week we were able to draw something in javascript and create a fun animation to it. It was interesting going into this projecte without a clue as to what i was going to do and then before i knew it hours had passed.
 
-<p> The only issues I had this assignment was typos. For example I wrote the camand `stroke ( 'white' )` but I forgot the ; at the end fo the command. I startet to think of it like texting  I have to wink after every command. ;)
+<p> This week I read all of the website information and watched the instruction videos. I learned how to use `frameRate()` , `noCursor()`, `mouseX, mouseY()`, and `let()`. </p>
 
-I did not use the issues forum this week. 
+<p> The only issues I had this week was knowing when to stop and work on my other homework. There are so many tweeks and Variables that can be changed that it can eat up an entire week.
+
+
+I did not use the issues forum this week.
 
 
 ## Workspace Screenshot
