@@ -1,11 +1,12 @@
 function setup() {
 
-    createCanvas( 800, 600 );
+  createCanvas(800, 600);
 
-    background( 'red' );
+  background('red');
 
 }
-    function draw() {
 
-      text( "Hello World!", 350, 300 );
+function draw() {
+
+  text("Hello World!", 350, 300);
 }
