@@ -13,7 +13,7 @@ var col = {
 
 function setup() {
   createCanvas(windowWidth, 950);
-  background( 'black');
+  background('black');
 
 
 
@@ -42,7 +42,7 @@ function draw() {
   fill('yellow');
   ellipse(-17, -65, 600, 600);
 
-//saturn
+  //saturn
   translate(835, 200);
   fill('brown');
   ellipse(-37, -105, 55, 55);
@@ -58,7 +58,7 @@ function draw() {
 
   pop();
 
-//planet
+  //planet
 
   push();
   translate(900, 300);
