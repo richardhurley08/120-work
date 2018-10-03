@@ -70,7 +70,7 @@ function draw() {
   translate(900, 300);
   fill('blue');
   ellipse(-17, -65, 35, 35);
-// moon
+  // moon
   translate(-15, -10);
   fill('grey');
   ellipse(-17, -65, 10, 10);
