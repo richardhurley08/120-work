@@ -13,7 +13,7 @@ var x = 600;
 var y = 300;
 var z = 450;
 var w = 800
-
+  // setup
 function setup() {
   createCanvas(windowWidth, 950);
   ball_color = color(255, 255, 255, 5)
@@ -22,14 +22,14 @@ function setup() {
 
 
 function draw() {
-
+  // text on screen
   textSize(64);
   text("Wherever you click gets a different result! ", 350, 300);
   text("Doing nothing looks cool too!", 500, 400);
-
+  // random ball colors
   x_pos++;
   fill_counter = x_pos % -30;
-  if(fill_counter == 0) {
+  if (fill_counter == 0) {
     ball_color = color(
       random(255),
       random(255),
@@ -37,6 +37,7 @@ function draw() {
       5
     );
   }
+  // creating movement for the ball
   ball.x += ball.delta_x * ball.scale_x;
   ball.y += ball.delta_y * ball.scale_y;
   if (ball.x >= width || ball.x <= 0) {
@@ -49,7 +50,7 @@ function draw() {
   fill(ball_color);
   ellipse(ball.x, ball.y, ball.width, ball.width);
 }
-
+  // mouse click change in ball
 function mousePressed() {
   ball.scale_x = map(mouseX, 0, width, 0.5, 10);
   ball.scale_y = map(mouseY, 0, height, 0.5, 10);
@@ -67,7 +68,7 @@ function mousePressed() {
   background(random(255), random(255), random(255));
 
   //****************************
-  //  Random
+  //  Randomness 
   //****************************
 
   if (x > mouseX) {
