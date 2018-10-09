@@ -1,7 +1,6 @@
 ### Richard Hurley, Your Section Number
 
-### [Live "Animation"](Your Live Link)
-
+### [Live "Animation"](https://richardhurley08.github.io/120-work/HW-7/)
 
 # HW 7 | Describe then Alter the Bouncing Ball
 
