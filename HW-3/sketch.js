@@ -7,6 +7,7 @@ function setup() {
 }
 
 function draw() {
-
+  textSize(64);
   text("Hello World!", 350, 300);
+
 }

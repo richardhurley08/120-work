@@ -10,7 +10,7 @@ noCursor();
 
 }
 function draw() {
-//background( 'black' );
+background( 'black' );
   stroke( 2 );
   strokeWeight( 4 );
   noFill();
