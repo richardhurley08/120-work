@@ -1,5 +1,15 @@
-# Empty p5 sketch.
+# Richard Hurley
+-----
+## Week 8 - for loops & while loops
+---
 
-Please replace contents of this file with appropriate readme information after finishing your p5 sketch.
+ This week we were able to draw something using `for` `while`, and `let`.
 
-Current p5 version -> 0.7.1
+<p> This week I read all of the website information. I was able to get this weeks assignment done early in the week. </p>
+
+<p> I had no issues this week.  </p>
+
+I did not use the issues forum this week.
+
+## Workspace Screenshot
+![screenshot](images/screenshot.png)
