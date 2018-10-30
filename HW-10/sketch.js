@@ -29,7 +29,7 @@ function backgroundChange() {
   }
   inst();
 }
-
+// mousePressed fuction
 function mousePressed() {
   backgroundChange();
   clicks++;
