@@ -15,6 +15,8 @@ function setup() {
 var r = circle[10] * .9;
 // function draw fizzy
 function draw() {
+
+
   ellipse(random(width), random(height), circle[3]);
   ellipse(random(width), random(height), circle[2]);
   ellipse(random(width), random(height), circle[3]);
