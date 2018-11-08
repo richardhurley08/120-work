@@ -59,16 +59,9 @@ function mousePressed() {
   fill(col);
   noStroke();
   ellipse(ball.x, ball.y, ball.width, ball.width);
-  if (keyIsPressed === true) {
-    noFill();
-    strokeWeight(random(5));
-    stroke(random(255), random(255), random(255), random(150));
-    ellipse(random(width), random(height), 255, 255);
-  }
-  background(random(255), random(255), random(255));
 
   //****************************
-  //  Randomness 
+  //  Randomness
   //****************************
 
   if (x > mouseX) {
