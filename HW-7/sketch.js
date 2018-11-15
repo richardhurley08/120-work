@@ -13,7 +13,7 @@ var x = 600;
 var y = 300;
 var z = 450;
 var w = 800
-  // setup
+// setup
 function setup() {
   createCanvas(windowWidth, 950);
   ball_color = color(255, 255, 255, 5)
@@ -50,7 +50,7 @@ function draw() {
   fill(ball_color);
   ellipse(ball.x, ball.y, ball.width, ball.width);
 }
-  // mouse click change in ball
+// mouse click change in ball
 function mousePressed() {
   ball.scale_x = map(mouseX, 0, width, 0.5, 10);
   ball.scale_y = map(mouseY, 0, height, 0.5, 10);
