@@ -18,8 +18,6 @@ intersects(other) {
     return false;
   }
 }
-
-
   move() {
     this.x += this.delta_x * this.scale_x;
     this.y += this.delta_y * this.scale_y;
@@ -31,7 +29,6 @@ intersects(other) {
         this.delta_y = -1 * this.delta_y;
   }
 }
-
   show() {
     stroke(random(255), random(255), random(255));
     strokeWeight(100);
