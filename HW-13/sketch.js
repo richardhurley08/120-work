@@ -14,7 +14,7 @@ let cols, y_space;
     
     createCanvas(windowWidth, windowHeight);  
    image(img, 0, 0);
-   frameRate(  );
+   frameRate( 2 );
 
    fill('purple');
    textSize(74);
@@ -41,12 +41,18 @@ function draw(){
 	
 	let x = 1;
 	let y = 1;
-	while ( x != 0 ){
-		x = floor(random() * rows);
+	while ( x != 0 ){;
 		y = floor(random() * cols);
+		x = floor(random() * rows)
 
 		fill('purple' );
-		ellipse( x*x_space, y*y_space, random(5, -3,) );
+      ellipse( y+x*y_space, x+y*x_space,  random(2, 1,), );
+      
+      fill('purple' );
+      ellipse( x*y_space, y*x_space,  random(2, 1,), );
+
+      fill('purple' );
+      ellipse( y*y_space, x*x_space,  random(1, 2,), );
 	}
 }
 
